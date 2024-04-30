@@ -1,6 +1,5 @@
 package com.aladinjunior.news.presentation.onboarding.components
 
-import android.content.res.Configuration
 import android.content.res.Configuration.UI_MODE_NIGHT_YES
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -30,7 +29,7 @@ fun OnBoardingPage(
     modifier: Modifier = Modifier,
     page: Page
 ) {
-    Column(modifier.fillMaxSize()) {
+    Column(modifier) {
         Image(
             modifier = Modifier
                 .fillMaxWidth()

@@ -61,6 +61,8 @@ dependencies {
     implementation(libs.androidx.material3)
 
     implementation (libs.androidx.core.splashscreen)
+    implementation(libs.androidx.datastore.core.android)
+    implementation(libs.androidx.datastore.preferences.core.jvm)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

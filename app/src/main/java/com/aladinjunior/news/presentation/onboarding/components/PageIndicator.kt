@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.tooling.preview.Preview
 import com.aladinjunior.news.presentation.Dimens.PageIndicatorSize
 import com.aladinjunior.news.ui.theme.BlueGray
 
@@ -32,4 +33,10 @@ fun PageIndicator(
         }
     }
     
+}
+
+@Preview
+@Composable
+private fun PageIndicatorPreview() {
+    PageIndicator(pageSize = 8, selectedPage = 1)
 }
